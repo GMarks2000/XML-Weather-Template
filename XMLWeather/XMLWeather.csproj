@@ -52,6 +52,7 @@
     <Compile Include="CurrentScreen.Designer.cs">
       <DependentUpon>CurrentScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Day.cs" />
     <Compile Include="ForecastScreen.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -97,6 +98,54 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Rain3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light blue circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light blue rim.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cloud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cloud2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SunCloud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SunRain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thunder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whiteRect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cloud3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SunCloud2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SunRain2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thunder2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sun2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
